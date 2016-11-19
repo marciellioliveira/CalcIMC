@@ -19,19 +19,9 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="50dp"
-        android:textSize="18sp"
+        android:textSize="30sp"
         android:textStyle="normal|bold"
         android:textColor="@color/colorPrimaryDark" />
-
-    <TextView
-        android:text="@string/selecione"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
-        android:id="@+id/tv"
-        android:layout_below="@+id/tvTituloPrincipal"
-        android:layout_alignLeft="@+id/tvTituloPrincipal"
-        android:layout_alignStart="@+id/tvTituloPrincipal" />
 
     <LinearLayout
         android:orientation="horizontal"
@@ -69,4 +59,15 @@
             android:layout_height="match_parent"></LinearLayout>
 
     </LinearLayout>
+
+    <TextView
+        android:text="@string/selecione"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:id="@+id/tv"
+        android:layout_below="@+id/tvTituloPrincipal"
+        android:layout_centerHorizontal="true"
+        android:textColor="?android:attr/colorAccent"
+        android:textSize="24sp" />
 </RelativeLayout>

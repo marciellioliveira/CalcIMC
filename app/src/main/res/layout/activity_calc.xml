@@ -67,23 +67,38 @@
 
             <TextView
                 android:layout_width="match_parent"
-                android:layout_height="3dp"
                 android:id="@+id/tvResultado"
                 android:textStyle="normal|bold"
-                android:layout_margin="2dp" />
+                android:layout_margin="2dp"
+                android:layout_height="20dp" />
 
             <TextView
-                android:text="PesoIdeal"
+                android:text="Peso Ideal"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/tvPesoIdeal"
-                android:layout_margin="2dp" />
+                android:layout_margin="2dp"
+                android:textStyle="normal|bold" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/tvMostraPesoIdeal"
                 android:layout_margin="2dp" />
+
+            <TextView
+                android:text="Status"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvStatus"
+                android:layout_margin="2dp"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvMostraStatus"
+                android:layout_margin="0dp" />
         </LinearLayout>
     </ScrollView>
 </LinearLayout>

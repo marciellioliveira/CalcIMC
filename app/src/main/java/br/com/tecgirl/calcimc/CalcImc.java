@@ -39,7 +39,7 @@ public class CalcImc {
      * @return status do IMC
      */
     public String statusImc(double imc, String sexo) {
-        if (sexo.equals("feminino")) {
+        if (sexo.equals("FEMININO")) {
             if (imc < 19.1) {
                 return "Abaixo do peso";
             } else if (imc >= 19.1 && imc < 25.8) {
@@ -51,7 +51,7 @@ public class CalcImc {
             } else {
                 return "Obesidade grau II";
             }
-        } else if (sexo.equals("masculino")) {
+        } else if (sexo.equals("MASCULINO")) {
             if (imc < 20.7) {
                 return "Abaixo do peso";
             } else if (imc >= 20.7 && imc < 26.4) {
