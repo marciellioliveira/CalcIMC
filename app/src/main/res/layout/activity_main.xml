@@ -27,20 +27,19 @@
         android:text="@string/selecione"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:id="@+id/tv"
         android:layout_below="@+id/tvTituloPrincipal"
         android:layout_alignLeft="@+id/tvTituloPrincipal"
-        android:layout_alignStart="@+id/tvTituloPrincipal"
-        android:layout_marginTop="14dp"
-        android:id="@+id/tv" />
+        android:layout_alignStart="@+id/tvTituloPrincipal" />
 
     <LinearLayout
         android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="100dp"
-        android:layout_below="@+id/tv"
+        android:layout_centerVertical="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="69dp">
+        android:layout_alignParentStart="true">
 
         <LinearLayout
             android:orientation="horizontal"
@@ -48,7 +47,7 @@
             android:layout_width="50dp"></LinearLayout>
 
         <ImageButton
-            android:id="@+id/imageButtonMulher"
+            android:id="@+id/imgDmulher"
             android:background="@drawable/female"
             android:layout_width="100dp"
             android:layout_height="100dp" />
@@ -61,7 +60,7 @@
         <ImageButton
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:id="@+id/imageButtonHomem"
+            android:id="@+id/imgDhomem"
             android:background="@drawable/male" />
 
         <LinearLayout
