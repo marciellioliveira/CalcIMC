@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">CalcIMC</string>
+
+    <string name="selecione">Selecione</string>
+    <string name="titulo_Principal">Calcule seu IMC</string>
+</resources>
